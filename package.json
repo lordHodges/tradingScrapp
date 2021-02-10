@@ -1,0 +1,27 @@
+{
+	"name": "tradingscrapp",
+	"version": "1.0.0",
+	"description": "analisis web para la obtencion de indicadores economicos",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon ./index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@hapi/boom": "^9.1.0",
+		"@hapi/good": "^9.0.0",
+		"@hapi/good-console": "^9.0.0",
+		"@hapi/good-squeeze": "^6.0.0",
+		"@hapi/hapi": "^19.1.1",
+		"@hapi/inert": "^6.0.1",
+		"@hapi/joi": "^17.1.1",
+		"@hapi/vision": "^6.0.0",
+		"blipp": "^4.0.1",
+		"cheerio": "^1.0.0-rc.5",
+		"dotenv": "^8.2.0",
+		"hapi-swagger": "^13.0.2",
+		"nodemon": "^2.0.7",
+		"request-promise": "^4.2.6"
+	}
+}
