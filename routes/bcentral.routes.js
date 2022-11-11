@@ -15,7 +15,7 @@ module.exports = {
 							"https://si3.bcentral.cl/Indicadoressiete/secure/Indicadoresdiarios.aspx";
 						const html = await rp(baseURL);
 						const listaSerie = await cheerio("label", html).map((i, e) => {
-							/* 
+							/*
 						uf: lblValor1_1
 						ivp: lblValor1_2
 						dollarObservado: lblValor1_3
@@ -38,6 +38,7 @@ module.exports = {
 						return Promise.all(yen);
 					};
 					/* https://mindicador.cl/api */
+					// TODO create new repository
 					const getSeriesChile = async () => {
 						const baseURL = "https://mindicador.cl/api";
 						const html = await rp(baseURL);
